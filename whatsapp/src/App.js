@@ -1,15 +1,16 @@
-import './App.css';
-import ChatComponent from './ChatComponent';
-import MainSideBar from './MainSideBar';
+import './App.css'
+import ChatComponent from './ChatComponent'
+import MainSideBar from './MainSideBar'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World !</h1>
-      <MainSideBar />
-      <ChatComponent />
+      <div className="Application_body">
+        <MainSideBar />
+        <ChatComponent />
+      </div>
     </div>
   );
 }
 
-export default App;
+export default App
