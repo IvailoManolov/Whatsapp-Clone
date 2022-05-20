@@ -1,7 +1,7 @@
 .App
 {
     display : grid;
-    place-items : center;
+    place-items: center;
     height : 100vh;
     background-color: #dadbd3;
 }
